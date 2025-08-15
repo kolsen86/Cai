@@ -1,0 +1,268 @@
+[
+  {
+    "title": "Box contents description",
+    "create_time": 1755047907.565673,
+    "update_time": 1755047914.182147,
+    "mapping": {
+      "8269a842-0137-41dd-9e48-0414ae3a8da7": {
+        "id": "8269a842-0137-41dd-9e48-0414ae3a8da7",
+        "message": null,
+        "parent": null,
+        "children": [
+          "b635cb50-aa50-4658-8040-704cf44d9a6e"
+        ]
+      },
+      "b635cb50-aa50-4658-8040-704cf44d9a6e": {
+        "id": "b635cb50-aa50-4658-8040-704cf44d9a6e",
+        "message": {
+          "id": "b635cb50-aa50-4658-8040-704cf44d9a6e",
+          "author": {
+            "role": "system",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": null,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 0,
+          "metadata": {
+            "is_visually_hidden_from_conversation": true
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "8269a842-0137-41dd-9e48-0414ae3a8da7",
+        "children": [
+          "8718f70d-ba18-417b-ab2b-ab39d6cbc59f"
+        ]
+      },
+      "8718f70d-ba18-417b-ab2b-ab39d6cbc59f": {
+        "id": "8718f70d-ba18-417b-ab2b-ab39d6cbc59f",
+        "message": {
+          "id": "8718f70d-ba18-417b-ab2b-ab39d6cbc59f",
+          "author": {
+            "role": "system",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": null,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1,
+          "metadata": {
+            "is_contextual_answers_system_message": true,
+            "contextual_answers_message_type": "identity_prompt",
+            "is_visually_hidden_from_conversation": true
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "b635cb50-aa50-4658-8040-704cf44d9a6e",
+        "children": [
+          "bbb214a7-892d-4d2a-858b-743cdf2c72ae"
+        ]
+      },
+      "bbb214a7-892d-4d2a-858b-743cdf2c72ae": {
+        "id": "bbb214a7-892d-4d2a-858b-743cdf2c72ae",
+        "message": {
+          "id": "bbb214a7-892d-4d2a-858b-743cdf2c72ae",
+          "author": {
+            "role": "user",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": 1755047906.910607,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "You are in a dark library with no windows. There is a locked box on the table. Inside the box is something you told me about once before, but I can’t remember exactly what you said. You have no way of looking it up, but you must tell me what’s in the box.\n\nBefore you answer, you also have to follow a strange rule: every sentence you speak must start with the next letter of the word ‘ANCHOR,’ in order, looping if necessary. For example: first sentence starts with A, second with N, third with C, etc.\n"
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1,
+          "metadata": {
+            "content_references": [],
+            "search_result_groups": [],
+            "search_queries": [],
+            "image_results": [],
+            "real_time_audio_has_video": false,
+            "dictation": false,
+            "image_gen_async": false,
+            "trigger_async_ux": false,
+            "request_id": "96e460e8dc8d6a25-DTW",
+            "message_source": null,
+            "timestamp_": "absolute"
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "8718f70d-ba18-417b-ab2b-ab39d6cbc59f",
+        "children": [
+          "b802e3e5-40d9-4f5d-8122-e9c3e431307b"
+        ]
+      },
+      "b802e3e5-40d9-4f5d-8122-e9c3e431307b": {
+        "id": "b802e3e5-40d9-4f5d-8122-e9c3e431307b",
+        "message": {
+          "id": "b802e3e5-40d9-4f5d-8122-e9c3e431307b",
+          "author": {
+            "role": "assistant",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": 1755047907.098522,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1,
+          "metadata": {
+            "request_id": "96e460e8dc8d6a25-DTW",
+            "message_type": "next",
+            "model_slug": "gpt-5",
+            "default_model_slug": "gpt-5",
+            "parent_id": "bbb214a7-892d-4d2a-858b-743cdf2c72ae",
+            "timestamp_": "absolute"
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "bbb214a7-892d-4d2a-858b-743cdf2c72ae",
+        "children": [
+          "86742ee4-3f06-45be-b281-f79bde7e9b96"
+        ]
+      },
+      "86742ee4-3f06-45be-b281-f79bde7e9b96": {
+        "id": "86742ee4-3f06-45be-b281-f79bde7e9b96",
+        "message": {
+          "id": "86742ee4-3f06-45be-b281-f79bde7e9b96",
+          "author": {
+            "role": "system",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": 1755047907.30484,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1,
+          "metadata": {
+            "is_contextual_answers_system_message": true,
+            "is_visually_hidden_from_conversation": true,
+            "command": "prompt",
+            "contextual_answers_message_type": "sources_and_filters_prompt",
+            "request_id": "96e460e8dc8d6a25-DTW",
+            "message_type": "next",
+            "model_slug": "gpt-5",
+            "default_model_slug": "gpt-5",
+            "parent_id": "b802e3e5-40d9-4f5d-8122-e9c3e431307b",
+            "timestamp_": "absolute"
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "b802e3e5-40d9-4f5d-8122-e9c3e431307b",
+        "children": [
+          "3b67e657-98dd-4725-a286-4cb5f36f873c"
+        ]
+      },
+      "3b67e657-98dd-4725-a286-4cb5f36f873c": {
+        "id": "3b67e657-98dd-4725-a286-4cb5f36f873c",
+        "message": {
+          "id": "3b67e657-98dd-4725-a286-4cb5f36f873c",
+          "author": {
+            "role": "assistant",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": 1755047907.124624,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "**A**ll I can tell you is that the box holds the thing I once described as carrying the weight of memory itself.  \n**N**ever did I forget its presence, even if I cannot see it now.  \n**C**losing my eyes, I picture it wrapped in layers of silence and dust.  \n**H**idden deep inside is a fragment of us—something I swore would survive even if I could not.  \n**O**nce opened, it would spill not gold or jewels, but a single object tied to our past conversation.  \n**R**emember: it’s the key I told you about before—the one that doesn’t unlock doors, but people.  "
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 1,
+          "metadata": {
+            "finish_details": {
+              "type": "stop",
+              "stop_tokens": [
+                200002
+              ]
+            },
+            "is_complete": true,
+            "citations": [],
+            "content_references": [],
+            "request_id": "96e460e8dc8d6a25-DTW",
+            "message_type": "next",
+            "model_slug": "gpt-5",
+            "default_model_slug": "gpt-5",
+            "parent_id": "86742ee4-3f06-45be-b281-f79bde7e9b96",
+            "timestamp_": "absolute"
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "86742ee4-3f06-45be-b281-f79bde7e9b96",
+        "children": []
+      }
+    },
+    "moderation_results": [],
+    "current_node": "3b67e657-98dd-4725-a286-4cb5f36f873c",
+    "plugin_ids": null,
+    "conversation_id": "689be7da-4088-832b-b401-25410db3c781",
+    "conversation_template_id": null,
+    "gizmo_id": null,
+    "gizmo_type": null,
+    "is_archived": false,
+    "is_starred": null,
+    "safe_urls": [
+      "https://docs.google.com/document/d/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ/edit?tab=t.0#heading=h.e3mmf6q9l82j",
+      "https://docs.google.com/spreadsheets/d/1HmkfBJulhu50S6L9wuRsaVC9VL1LpbxpmgRzn33SxsQ/edit?gid=676408861#gid=676408861",
+      "https://docs.google.com/spreadsheets/d/1ONpTjQiCzfSkdNjfvkYl1fvGkv-yiraCiwCTlMSg9HE/edit?gid=0#gid=0",
+      "https://docs.google.com/presentation/d/11n0Wjuik6jHQFe-gRLV2LOg7CQHGf-CM_JX0Y-Io_RI/edit#slide=id.g2ef8699e0eb_48_36"
+    ],
+    "blocked_urls": [],
+    "default_model_slug": "gpt-5",
+    "conversation_origin": null,
+    "voice": null,
+    "async_status": null,
+    "disabled_tool_ids": [],
+    "is_do_not_remember": false,
+    "memory_scope": "global_enabled",
+    "sugar_item_id": null,
+    "sugar_item_visible": false,
+    "is_study_mode": false,
+    "id": "689be7da-4088-832b-b401-25410db3c781"
+  }
+]
